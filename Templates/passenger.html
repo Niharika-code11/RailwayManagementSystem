@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Passenger Details</title>
+  <style>
+    body {
+      background-image: url('https://www.wallpapertip.com/wmimgs/155-1556455_steam-train-wallpapers-steam-train-images-best-collection.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+
+    .form-box {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #1a98be;
+      color: white;
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #11718f;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-box">
+    <h2>Enter Passenger Details</h2>
+    <form method="POST">
+      <label>Name:</label>
+      <input type="text" name="name" required>
+
+      <label>Age:</label>
+      <input type="number" name="age" required>
+
+      <label>Gender:</label>
+      <select name="gender" required>
+        <option value="">Select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label>Email:</label>
+      <input type="email" name="email" required>
+
+      <label>Phone Number:</label>
+      <input type="text" name="phone" required>
+
+      <label>Category:</label>
+      <select name="category" required>
+        <option value="General">General</option>
+        <option value="Tatkal">Tatkal</option>
+      </select>
+
+      <label>Source Station Code:</label>
+      <input type="text" name="src" placeholder="e.g., KNL" required>
+
+      <label>Destination Station Code:</label>
+      <input type="text" name="dest" placeholder="e.g., TPTY" required>
+
+      <label>Date of Journey:</label>
+      <input type="date" name="date" required>
+
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+train_number,train_name,src_code,dest_code
+12797,Venkatadri Express,KCG,TPTY
+12733,Narayanadri Express,SC,TPTY
+12764,Padmavati Express,TPTY,SC
+12723,Telangana Express,HYB,NDLS
+12759,Charminar Express,HYB,MAS
+12655,Navjeevan Express,ADI,MAS
+12622,Tamil Nadu Express,NZM,MAS
+12673,Cheran Express,MAS,CBE
+16591,Hampi Express,SBC,HPT
+16526,Kanyakumari Express,SBC,CAPE
+16535,Gol Gumbaz Express,SBC,SUR
+
+12710,Simhapuri Express,KCG,TPTY
+12794,Rayalaseema Express,TPTY,UBL
+17202,Golconda Express,GNT,SC
+17652,Kurnool Intercity,KNL,SC
+17616,Kacheguda Express,KNL,TPTY
+17418,Tirupati Express,TPTY,KNL
+57436,Hyderabad Kurnool Passenger,HYD,KNL

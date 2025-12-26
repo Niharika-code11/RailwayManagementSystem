@@ -1,0 +1,24 @@
+[
+    {
+        "username": "Niharika",
+        "password": "1104",
+        "securityquestion": "What was the name of your first school?",
+        "securityanswer": "school",
+        "fname": "sum",
+        "mname": "",
+        "lname": "niha",
+        "occupation": "student",
+        "dob": "2004-12-11",
+        "maritalstatus": "unmarried",
+        "country": "India",
+        "sex": "Female",
+        "email": "sumbuniharika@gmail.com",
+        "mobileno": "7981773627"
+    },
+    {
+        "username": "",
+        "password": "",
+        "securityquestion": "Choose a security question",
+        "securityanswer": ""
+    }
+]
